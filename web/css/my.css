@@ -1,0 +1,27 @@
+h1{
+    font-family:Lobster,cursive;
+}
+
+h2{
+    font-family:Lobster,cursive;
+}
+h3{
+    font-family:Lobster,cursive;
+}
+
+h4{
+    font-family:Lobster,cursive;
+}
+body {
+
+   background-image: url("/web/images/uzor.jpg")!important;
+
+    background-size: cover;
+    /*background-size:1000px 700px;*/
+
+
+}
+
+/*body{
+    background-color: #1d6f67;
+}

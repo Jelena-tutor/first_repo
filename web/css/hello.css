@@ -1,0 +1,47 @@
+body {
+     background: #144680;
+     color: #000;
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+ }
+
+#header {
+    width: 100%;
+    height: 55px;
+}
+
+#container {
+
+    margin: auto auto;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+#navigation {
+    background: #FE9798;
+    width: 100%;
+    height: 25px;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    height: 280px;
+}
+
+#content {
+    float: right;
+    width: 80%;
+    height: 280px;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+
+    width: 100%;
+    height:30%;
+}

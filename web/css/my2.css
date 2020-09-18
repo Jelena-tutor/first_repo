@@ -1,0 +1,23 @@
+h1{
+    font-family:Lobster,cursive;
+}
+h2{
+    font-family:Lobster,cursive;
+}
+h3{
+    font-family:Lobster,cursive;
+}
+
+h4{
+    font-family:Lobster,cursive;
+}
+
+body {
+
+    background-image: url("/web/images/0019.png")!important;
+
+    background-size: cover;
+    /*background-size:1000px 700px;*/
+
+
+}

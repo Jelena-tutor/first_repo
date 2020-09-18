@@ -1,0 +1,151 @@
+h1{
+    font-family:Lobster,cursive;
+}
+h2{
+    font-family:Lobster,cursive;
+}
+h3{
+    font-family:Lobster,cursive;
+}
+
+h4{
+    font-family:Lobster,cursive;
+}
+
+body {
+
+    background-image: url("/web/images/0019.png")!important;
+
+    background-size: cover;
+    /*background-size:1000px 700px;*/
+
+}
+
+.bulletsBlock:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#header {
+    width: 100%;
+    height: 75px;
+}
+
+#container {
+    margin: auto auto;
+
+    text-align: center;
+    width: 80%;
+    height: 400px;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    height: 280px;
+}
+
+#content {
+    float: right;
+    padding-top: 10%;
+    width: 100%;
+    height: 180px;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    padding: auto;
+    width: 100%;
+    height: 40px;
+}
+
+
+.bulletsBlock > div {
+    width: 30%;
+    float:left;
+    background: rgba(30,80,100,0.3);
+    margin-left:5%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 31.7%;
+    cursor: pointer;
+    -webkit-transition:all 0.35s linear;
+    transition:all 0.35s linear;
+}
+
+.bulletsBlock > div:first-child {
+    margin-left:0;
+}
+
+/*Тень снизу у блока при наведении*/
+.bulletsBlock > div:hover {
+    -webkit-box-shadow: 0 35px 35px -35px #000000;
+    -moz-box-shadow: 0 35px 35px -35px #000000;
+    box-shadow: 0 35px 35px -35px #000000;
+}
+
+.bullet-item span{
+    line-height: 1.5em;
+    font-size: 12.5em;
+    color:#fff;
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width: 100%;
+    -webkit-transition:all 0.35s ease;
+    transition:all 0.35s ease;
+}
+
+/*Анимация иконки при наведении - уменьшение и сдвиг вверх*/
+.bulletsBlock > div:hover span.iconBullet{
+    line-height: 1.35em;
+    font-size: 10.625em;
+    top:-2.7%;
+}
+
+.titleBullet, .hideText {
+    position: absolute;
+    left:0;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    -webkit-transition:all 0.35s ease;
+    transition:all 0.35s ease;
+}
+
+.titleBullet {
+    line-height: 2.5em;
+    font-size: 2.1875em;
+    background: #0F335E;
+    z-index: 10;
+}
+
+.hideText {
+    line-height: 1.3em;
+    font-size: 1.25em;
+    padding: 1em 0;
+    background:#144680;
+    font-weight: 300;
+    z-index: 8;
+    height: 50px;
+    -webkit-transition:all 0.35s linear 0.2s;
+    transition:all 0.35s linear 0.2s;
+}
+
+/*Анимация при наведении видимого текстового блока*/
+.bulletsBlock > div:hover p.titleBullet{
+    bottom:80px;
+}
+
+/*Анимация при наведении скрытого текстового блока*/
+.bulletsBlock > div:hover p.hideText{
+    background:#1B5EAB;
+}
